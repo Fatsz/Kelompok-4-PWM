@@ -65,18 +65,7 @@ a {
 }
 
     /* END NAVBAR */
-    /* START BACK HISTORY */
-.backdenah {
-    position: fixed;    
-    top: 9%;
-    left: 4px;
-    background: #826C44;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
 
-    /* END BACK HISTORY */
     /* CONTAINER HOME */
 
 #home {
@@ -175,7 +164,6 @@ a {
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    padding-top: 10%;
 }
 
 .box-denah {
@@ -222,7 +210,7 @@ a {
 
 .tooltip1:hover {
     opacity: 1;
-    background: rgba(192, 55, 162, 0.932);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.5vh;
 }
 
@@ -246,7 +234,7 @@ a {
 
 .tooltip2:hover {
     opacity: 1;
-    background: rgba(47, 78, 59, 0.966);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.5vh;
 }
 
@@ -270,7 +258,7 @@ a {
 
 .tooltip3:hover {
     opacity: 1;
-    background: rgba(56, 120, 129, 0.966);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.7vh;
 }
 
@@ -294,7 +282,7 @@ a {
 
 .tooltip4:hover {
     opacity: 1;
-    background: rgb(206, 51, 51);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.3vh;
 }
 
@@ -501,31 +489,6 @@ a {
     /* END CONTAINER HISTORY */
 
     /* CONTAINER HISTORY DIORAMA I */
-.container_2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-}
-
-.Dome1 {
-    text-align: justify;
-    width: 50vw;
-    background: #826C44;
-    border-radius: 15px;
-    padding: 20px;
-    color: #fff;
-}
-
-.dom ul{
-    display: flex;
-    justify-content: space-around;
-    width: 30vw;
-    align-items: center;
-    position: absolute;
-    top: 26%;
-    left: 80px;
-}
 
     /* END CONTAINER HISTORY DIORAMA I */
 
@@ -678,7 +641,7 @@ a {
 }
 
 .title-contact1:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .btn button {
@@ -877,7 +840,7 @@ footer {
 .navigation .slide8:hover, 
 .navigation .slide9:hover, 
 .navigation .slide10:hover {
-    background-color: #58370C;
+    background: #58370C;
 }
 
 .card {
