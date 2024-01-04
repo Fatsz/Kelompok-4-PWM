@@ -619,14 +619,14 @@ a {
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: -3%;
+    margin-top: -7%;
 }
 
 .box-title1 {
     display: flex;
     flex-direction: column;
     color: #4b2e08;
-    margin-left: 8%;
+    margin-left: 7.3%;
     margin-top: 3.5%;
     gap: 5px;
 }
@@ -661,16 +661,13 @@ a {
 
 .btn button {
     cursor: pointer;
+    font-size: 20px;
     color: #826C44;
     background: #4b2e08;
     border: 1px solid;
     border-radius: 8px;
-    margin: 8% 8%;
-    padding: 1.5% 40%;
-}
-
-.btn button a {
-    color: #826C44;
+    margin: 10% 8%;
+    padding: 1.5% 38.5%;
 }
 
 footer {
@@ -690,6 +687,11 @@ footer {
 
 .sosmed {
     display: inline-flex;
+}
+
+.tooltip {
+    color: #412705;
+    font-size: 20px;
 }
 
 .sosmed .icon {
