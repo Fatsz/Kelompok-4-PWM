@@ -684,7 +684,8 @@ footer {
 
 .img1 {
     height: 3vh;
-    border-radius: 10px;
+    aspect-ratio: 2/2;
+    object-fit: contain;
 }
 
 .sosmed {
@@ -692,7 +693,7 @@ footer {
 }
 
 .sosmed .icon {
-    margin: 0 20px;
+    margin: 0 31px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -700,10 +701,19 @@ footer {
     position: relative;
     z-index: 2;
     cursor: pointer;
-    background: #826C44;
+    background-color: #826C44;
     box-shadow: 0 3px 10px 0 rgb(129, 89, 4);
     border-radius: 50px;
-    height: 45px;
+    height: 50px;
+    width: 50px;
+}
+
+.sosmed .icon .img1 {
+    display: flexbox;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 35% 9%;
 }
 
 .sosmed .icon span {
