@@ -592,7 +592,7 @@ a {
 }
 
 .box-heading {
-    margin: 7% 40%;
+    margin: 5% 40%;
     font-size: 20px;
     font-style: italic;
     color: #4b2e08;
@@ -604,7 +604,7 @@ a {
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: -3%;
+    margin-top: -8%;
 }
 
 .box-title1 {
