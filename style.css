@@ -3,9 +3,7 @@
     src: url('/assets/FjallaOne-Regular.ttf');
 }
 
-*,
-html,
-body {
+*, html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,18 +13,18 @@ body {
 }
 
 body {
-    background-image: linear-gradient(rgba(44, 37, 9, 0.425), rgba(31, 21, 12, 0.685)), url('/assets/BG.jpeg');
+    background-image: linear-gradient(rgba(44, 37, 9, 0.425),rgba(31, 21, 12, 0.685)), url('/assets/BG.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-/* NAVBAR */
+    /* NAVBAR */
 
 header {
     position: fixed;
     z-index: 1;
-    background: linear-gradient(rgba(63, 66, 13, 0.637), rgba(136, 72, 12, 0.404));
+    background: linear-gradient(rgba(63, 66, 13, 0.637),rgba(136, 72, 12, 0.404));
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,13 +33,13 @@ header {
     gap: 10px;
 }
 
-/* NAVBAR-IMG */
+    /* NAVBAR-IMG */
 
-.logo-img {
+.logo-img{
     height: 8vh;
 }
 
-/* NAVBAR-TEXT */
+    /* NAVBAR-TEXT */
 
 nav ul {
     font-weight: bold;
@@ -66,9 +64,20 @@ a {
     border-bottom: 3px solid;
 }
 
-/* END NAVBAR */
+    /* END NAVBAR */
+    /* START BACK HISTORY */
+.backdenah {
+    position: fixed;    
+    top: 9%;
+    left: 4px;
+    background: #826C44;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
 
-/* CONTAINER HOME */
+    /* END BACK HISTORY */
+    /* CONTAINER HOME */
 
 #home {
     padding: 5px 10px;
@@ -85,7 +94,7 @@ a {
     height: 100vh;
 }
 
-.gambar {
+.gambar{
     width: 40vw;
     margin-top: 10%;
     opacity: 0;
@@ -93,12 +102,10 @@ a {
 }
 
 @keyframes showG {
-    from {
+    from{
         transform: translate(-50px, 0);
         filter: blur(25px) drop-shadow(16px 7px 8px #000000);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0) drop-shadow(16px 7px 8px #000000);
@@ -106,7 +113,7 @@ a {
 }
 
 
-.text {
+.text{
     text-align: center;
     color: white;
     font-size: 35px;
@@ -122,12 +129,10 @@ a {
 }
 
 @keyframes typing {
-    from {
+    from{
         width: 0;
         text-shadow: 2px 2px 5px #000000;
-    }
-
-    to {
+    }to {
         width: 100%;
         text-shadow: 2px 2px 5px #000000;
     }
@@ -141,14 +146,12 @@ a {
 }
 
 @keyframes showP {
-    from {
+    from{
         opacity: 0;
         transform: translate(0, 50px);
         filter: blur(25px);
         text-shadow: 2px 2px 5px #000000;
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
@@ -156,9 +159,9 @@ a {
     }
 }
 
-/* END CONTAINER HOME */
+    /* END CONTAINER HOME */
 
-/* CONTAINER HISTORY */
+    /* CONTAINER HISTORY */
 
 #history {
     padding: 5px 10px;
@@ -172,6 +175,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
+    padding-top: 10%;
 }
 
 .box-denah {
@@ -294,7 +298,7 @@ a {
     height: 5.3vh;
 }
 
-/* Diorama I */
+    /* Diorama I */
 
 .popup_BoxD1 {
     background: #826C44;
@@ -494,25 +498,50 @@ a {
     filter: blur(0px);
 }
 
-/* END CONTAINER HISTORY */
+    /* END CONTAINER HISTORY */
 
-/* CONTAINER HISTORY DIORAMA I */
+    /* CONTAINER HISTORY DIORAMA I */
+.container_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
 
-/* END CONTAINER HISTORY DIORAMA I */
+.Dome1 {
+    text-align: justify;
+    width: 50vw;
+    background: #826C44;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+}
 
-/* CONTAINER HISTORY DIORAMA II */
+.dom ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    align-items: center;
+    position: absolute;
+    top: 26%;
+    left: 80px;
+}
 
-/* END CONTAINER HISTORY DIORAMA II */
+    /* END CONTAINER HISTORY DIORAMA I */
 
-/* CONTAINER HISTORY DIORAMA III */
+    /* CONTAINER HISTORY DIORAMA II */
 
-/* END CONTAINER HISTORY DIORAMA III */
+    /* END CONTAINER HISTORY DIORAMA II */
 
-/* CONTAINER HISTORY DIORAMA IV */
+    /* CONTAINER HISTORY DIORAMA III */
 
-/* END CONTAINER HISTORY DIORAMA IV */
+    /* END CONTAINER HISTORY DIORAMA III */
 
-/* CONTAINER CONTACT */
+    /* CONTAINER HISTORY DIORAMA IV */
+
+    /* END CONTAINER HISTORY DIORAMA IV */
+
+    /* CONTAINER CONTACT */
 
 #contact {
     padding: 5px 10px;
@@ -541,17 +570,15 @@ a {
     margin-bottom: 2%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 3s;
+    animation: typing1 4.5s;
 }
 
 @keyframes typing1 {
-    from {
+    from{
         opacity: 0;
         width: 0;
         filter: blur(5px);
-    }
-
-    to {
+    }to {
         opacity: 1;
         width: 100%
     }
@@ -560,46 +587,41 @@ a {
 .map {
     opacity: 0;
     animation: showM 3s ease-in-out 1s forwards;
-    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
 }
 
 @keyframes showM {
-    from {
+    from{
         opacity: 0;
         transform: translate(-50px, 0);
         filter: blur(20px);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
-    }
+    }   
 }
 
 .box {
     background: #826C44;
     display: flex;
-    position: relative;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-top: 5%;
     width: 35vw;
     height: 70vh;
-    gap: 20px;
+    gap: 30px;
     opacity: 0;
-    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
     animation: showB 3s ease-in-out 1s forwards;
 }
 
 @keyframes showB {
-    from {
+    from{
         opacity: 0;
         transform: translate(50px, 0);
         filter: blur(15px);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
@@ -619,14 +641,14 @@ a {
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: -7%;
+    margin-top: -3%;
 }
 
 .box-title1 {
     display: flex;
     flex-direction: column;
     color: #4b2e08;
-    margin-left: 7.3%;
+    margin-left: 8%;
     margin-top: 3.5%;
     gap: 5px;
 }
@@ -661,13 +683,16 @@ a {
 
 .btn button {
     cursor: pointer;
-    font-size: 20px;
     color: #826C44;
     background: #4b2e08;
     border: 1px solid;
     border-radius: 8px;
-    margin: 9% 7.5%;
-    padding: 1.5% 38.5%;
+    margin: 8.5% 12.5%;
+    padding: 1.5% 35%;
+}
+
+.btn button a {
+    color: #826C44;
 }
 
 footer {
@@ -679,23 +704,17 @@ footer {
     animation: showF 4s ease-in-out 0.5s forwards;
 }
 
-.img1 {
+.img1{
     height: 3vh;
-    aspect-ratio: 2/2;
-    object-fit: contain;
+    border-radius: 10px;
 }
 
 .sosmed {
     display: inline-flex;
 }
 
-.tooltip {
-    color: #412705;
-    font-size: 20px;
-}
-
 .sosmed .icon {
-    margin: 0 31px;
+    margin: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -703,19 +722,10 @@ footer {
     position: relative;
     z-index: 2;
     cursor: pointer;
-    background-color: #826C44;
+    background: #826C44;
     box-shadow: 0 3px 10px 0 rgb(129, 89, 4);
     border-radius: 50px;
-    height: 50px;
-    width: 50px;
-}
-
-.sosmed .icon .img1 {
-    display: flexbox;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 35% 9%;
+    height: 45px;
 }
 
 .sosmed .icon span {
@@ -755,25 +765,23 @@ footer {
     bottom: -8px;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
-}
+} 
 
 @keyframes showF {
-    from {
+    from{
         opacity: 0;
         transform: translate(0, 0);
         filter: blur(25px);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
     }
 }
 
-/* END CONTAINER CONTACT */
+    /* END CONTAINER CONTACT */
 
-/* CONTAINER DEV TEAM */
+    /* CONTAINER DEV TEAM */
 
 #devteam {
     padding: 5px 10px;
@@ -808,56 +816,47 @@ footer {
     overflow: hidden;
 }
 
-#slide-1:target~.image {
+#slide-1:target ~ .image {
     margin-left: 0px;
 }
 
-#slide-2:target~.image {
+#slide-2:target ~ .image {
     margin-left: -100%;
 }
 
-#slide-3:target~.image {
+#slide-3:target ~ .image {
     margin-left: -200%;
 }
 
-#slide-4:target~.image {
+#slide-4:target ~ .image {
     margin-left: -300%;
 }
 
-#slide-5:target~.image {
+#slide-5:target ~ .image {
     margin-left: -400%;
 }
 
-#slide-6:target~.image {
+#slide-6:target ~ .image {
     margin-left: -500%;
 }
 
-#slide-7:target~.image {
+#slide-7:target ~ .image {
     margin-left: -600%;
 }
 
-#slide-8:target~.image {
+#slide-8:target ~ .image {
     margin-left: -700%;
 }
 
-#slide-9:target~.image {
+#slide-9:target ~ .image {
     margin-left: -800%;
 }
 
-#slide-10:target~.image {
+#slide-10:target ~ .image {
     margin-left: -900%;
 }
 
-.navigation .slide1,
-.slide2,
-.slide3,
-.slide4,
-.slide5,
-.slide6,
-.slide7,
-.slide8,
-.slide9,
-.slide10 {
+.navigation .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10 {
     display: inline-block;
     position: relative;
     left: 28.5%;
@@ -868,15 +867,15 @@ footer {
     margin: 3px;
 }
 
-.navigation .slide1:hover,
-.navigation .slide2:hover,
-.navigation .slide3:hover,
-.navigation .slide4:hover,
-.navigation .slide5:hover,
-.navigation .slide6:hover,
-.navigation .slide7:hover,
-.navigation .slide8:hover,
-.navigation .slide9:hover,
+.navigation .slide1:hover, 
+.navigation .slide2:hover, 
+.navigation .slide3:hover, 
+.navigation .slide4:hover, 
+.navigation .slide5:hover, 
+.navigation .slide6:hover, 
+.navigation .slide7:hover, 
+.navigation .slide8:hover, 
+.navigation .slide9:hover, 
 .navigation .slide10:hover {
     background-color: #58370C;
 }
@@ -1027,17 +1026,15 @@ footer {
 }
 
 @keyframes showC {
-    from {
+    from{
         opacity: 0;
         transform: translate(0, 0);
         filter: blur(20px);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translate(0, 0);
         filter: blur(0);
     }
 }
 
-/* END CONTAINER DEV TEAM */
+    /* END CONTAINER DEV TEAM */
