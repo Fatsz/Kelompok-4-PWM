@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-image: linear-gradient(rgba(44, 37, 9, 0.425), rgba(31, 21, 12, 0.685)), url('/assets/R.jpeg');
+    background-image: linear-gradient(rgba(44, 37, 9, 0.425), rgba(31, 21, 12, 0.685)), url('/assets/BG.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -541,7 +541,7 @@ a {
     margin-bottom: 2%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 4.5s;
+    animation: typing1 3s;
 }
 
 @keyframes typing1 {
@@ -560,7 +560,7 @@ a {
 .map {
     opacity: 0;
     animation: showM 3s ease-in-out 1s forwards;
-    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
 }
 
 @keyframes showM {
@@ -580,14 +580,15 @@ a {
 .box {
     background: #826C44;
     display: flex;
+    position: relative;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 5%;
     width: 35vw;
     height: 70vh;
-    gap: 30px;
+    gap: 20px;
     opacity: 0;
-    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
     animation: showB 3s ease-in-out 1s forwards;
 }
 
@@ -618,14 +619,14 @@ a {
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: -3%;
+    margin-top: -7%;
 }
 
 .box-title1 {
     display: flex;
     flex-direction: column;
     color: #4b2e08;
-    margin-left: 8%;
+    margin-left: 7.3%;
     margin-top: 3.5%;
     gap: 5px;
 }
@@ -660,16 +661,13 @@ a {
 
 .btn button {
     cursor: pointer;
+    font-size: 20px;
     color: #826C44;
     background: #4b2e08;
     border: 1px solid;
     border-radius: 8px;
-    margin: 8.5% 12.5%;
-    padding: 1.5% 35%;
-}
-
-.btn button a {
-    color: #826C44;
+    margin: 9% 7.5%;
+    padding: 1.5% 38.5%;
 }
 
 footer {
@@ -683,15 +681,21 @@ footer {
 
 .img1 {
     height: 3vh;
-    border-radius: 10px;
+    aspect-ratio: 2/2;
+    object-fit: contain;
 }
 
 .sosmed {
     display: inline-flex;
 }
 
+.tooltip {
+    color: #412705;
+    font-size: 20px;
+}
+
 .sosmed .icon {
-    margin: 0 20px;
+    margin: 0 31px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -699,10 +703,19 @@ footer {
     position: relative;
     z-index: 2;
     cursor: pointer;
-    background: #826C44;
+    background-color: #826C44;
     box-shadow: 0 3px 10px 0 rgb(129, 89, 4);
     border-radius: 50px;
-    height: 45px;
+    height: 50px;
+    width: 50px;
+}
+
+.sosmed .icon .img1 {
+    display: flexbox;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 35% 9%;
 }
 
 .sosmed .icon span {
