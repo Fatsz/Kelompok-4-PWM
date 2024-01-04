@@ -1,4 +1,5 @@
 .container_1 img {
+    margin-top: 110px;
     margin-right: 20px;
     border-radius: 25px;
 }
@@ -20,7 +21,6 @@
     align-items: center;
     margin: 20px;
     margin-top: 0px;
-    
 }
 
 /* START BACK HISTORY */
