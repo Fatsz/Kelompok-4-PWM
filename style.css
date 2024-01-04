@@ -501,31 +501,31 @@ a {
     /* END CONTAINER HISTORY */
 
     /* CONTAINER HISTORY DIORAMA I */
-.container_2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
+.container_2 img {
+    margin-right: 20px;
+    border-radius: 25px;
 }
 
 .Dome1 {
     text-align: justify;
-    width: 50vw;
+    font-style: normal;
+    color: white;
     background: #826C44;
-    border-radius: 15px;
+    background-color: rgba(170, 120, 16, 0.57);
     padding: 20px;
-    color: #fff;
+    border-radius: 15px;
+
+
+}
+.container_2 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+    
 }
 
-.dom ul{
-    display: flex;
-    justify-content: space-around;
-    width: 30vw;
-    align-items: center;
-    position: absolute;
-    top: 26%;
-    left: 80px;
-}
 
     /* END CONTAINER HISTORY DIORAMA I */
 
