@@ -541,7 +541,7 @@ a {
     margin-bottom: 2%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 4.5s;
+    animation: typing1 3s;
 }
 
 @keyframes typing1 {
@@ -560,7 +560,7 @@ a {
 .map {
     opacity: 0;
     animation: showM 3s ease-in-out 1s forwards;
-    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
 }
 
 @keyframes showM {
@@ -580,14 +580,15 @@ a {
 .box {
     background: #826C44;
     display: flex;
+    position: relative;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 5%;
     width: 35vw;
     height: 70vh;
-    gap: 30px;
+    gap: 20px;
     opacity: 0;
-    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+    box-shadow: 5px 5px 20px 7px rgb(129, 79, 4);
     animation: showB 3s ease-in-out 1s forwards;
 }
 
@@ -664,8 +665,8 @@ a {
     background: #4b2e08;
     border: 1px solid;
     border-radius: 8px;
-    margin: 8.5% 12.5%;
-    padding: 1.5% 35%;
+    margin: 8% 8%;
+    padding: 1.5% 40%;
 }
 
 .btn button a {
