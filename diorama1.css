@@ -1,0 +1,38 @@
+.container_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.Dome1 {
+    text-align: justify;
+    width: 50vw;
+    background: #826C44;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+}
+
+.dom ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    align-items: center;
+    position: absolute;
+    top: 26%;
+    left: 80px;
+}
+
+/* START BACK HISTORY */
+.backdenah {
+    position: fixed;    
+    top: 9%;
+    left: 4px;
+    background: #826C44;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+    /* END BACK HISTORY */
