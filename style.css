@@ -488,48 +488,6 @@ a {
 
     /* END CONTAINER HISTORY */
 
-
-    /* CONTAINER HISTORY DIORAMA I */
-.container_2 img {
-    margin-right: 20px;
-    border-radius: 25px;
-}
-
-.Dome1 {
-    text-align: justify;
-    font-style: normal;
-    color: white;
-    background: #826C44;
-    background-color: rgba(170, 120, 16, 0.57);
-    padding: 20px;
-    border-radius: 15px;
-
-
-}
-.container_2 {
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    margin: 20px;
-    margin-top: 0px;
-    
-}
-
-
-    /* END CONTAINER HISTORY DIORAMA I */
-
-    /* CONTAINER HISTORY DIORAMA II */
-
-    /* END CONTAINER HISTORY DIORAMA II */
-
-    /* CONTAINER HISTORY DIORAMA III */
-
-    /* END CONTAINER HISTORY DIORAMA III */
-
-    /* CONTAINER HISTORY DIORAMA IV */
-
-    /* END CONTAINER HISTORY DIORAMA IV */
-
     /* CONTAINER CONTACT */
 
 #contact {
