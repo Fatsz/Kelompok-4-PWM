@@ -281,6 +281,54 @@ a {
 }
 
 .tooltip4:hover {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
+.playground {
+    position: absolute;
+    top: 42.5%;
+    left: 41.7%;
+}
+
+.playground .playgroundd {
+    width: 1.7vw;
+    height: 5.2vh;
+    position: absolute;
+}
+
+.playground .tooltip5 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.playground:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
+.laktasi {
+    position: absolute;
+    top: 47.7%;
+    left: 38.3%;
+}
+
+.laktasi .laktasii {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+}
+
+.laktasi .tooltip6 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.tooltip6:hover {
     opacity: 1;
     background: rgba(255, 255, 255, 0.15);
     height: 5.3vh;
@@ -486,6 +534,101 @@ a {
     filter: blur(0px);
 }
 
+.popup_BoxPG {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.BoxPG-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.BoxPG-text p {
+    text-align: justify;
+}
+
+.popup_BoxPG button {
+    cursor: pointer;
+    background: #2c1909;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 39%;
+}
+
+#popup_BoxPG:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.popup_Boxlaktasi {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.Boxlaktasi-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.Boxlaktasi-text p {
+    text-align: justify;
+}
+
+.popup_Boxlaktasi button {
+    cursor: pointer;
+    background: #2c1909;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 39%;
+}
+
+#popup_Boxlaktasi:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
     /* END CONTAINER HISTORY */
 
     /* CONTAINER CONTACT */
@@ -517,7 +660,7 @@ a {
     margin-bottom: 2%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 4.5s;
+    animation: typing1 2.5s;
 }
 
 @keyframes typing1 {
@@ -533,7 +676,7 @@ a {
 
 .map {
     opacity: 0;
-    animation: showM 3s ease-in-out 1s forwards;
+    animation: showM 1s ease-in-out 1s forwards;
     box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
 }
 
@@ -560,7 +703,7 @@ a {
     gap: 30px;
     opacity: 0;
     box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
-    animation: showB 3s ease-in-out 1s forwards;
+    animation: showB 1s ease-in-out 1s forwards;
 }
 
 @keyframes showB {
@@ -648,7 +791,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     opacity: 0;
-    animation: showF 4s ease-in-out 0.5s forwards;
+    animation: showF 2s ease-in-out 0.5s forwards;
 }
 
 .img1{
