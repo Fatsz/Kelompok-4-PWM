@@ -1,0 +1,39 @@
+.container_2 img {
+    margin-top: 0px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.Dome1 {
+    text-align: justify;
+    font-style: normal;
+    color: white;
+    background: #826C44;
+    background-color: rgba(170, 120, 16, 0.57);
+    padding: 20px;
+    border-radius: 15px;
+
+
+}
+.container_2 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+    
+}
+
+.container_A {
+    padding-top:10vh;
+ } 
+
+.backdenah {
+    position: fixed;    
+    top: 9%;
+    left: 4px;
+    background: #826C44;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}

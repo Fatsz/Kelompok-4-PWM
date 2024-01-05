@@ -12,6 +12,7 @@
     <!-- NAVBAR -->
     <header>
         <div class="logo">
+            <a href="Home.html"><img src="/assets/Logo.png" class="logo-img" /></a>
             <a href="Home.html"><img src="/Kelompok pwm 4/assets/Logo.png" class="logo-img" /></a>
         </div>
         <nav>
@@ -34,6 +35,7 @@
             </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6404.096639363294!2d110.36733419716232!3d-7.801823553975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5788c0b3eecf%3A0xb9611ce0232a9ff8!2sMuseum%20Benteng%20Vredeburg!5e0!3m2!1sid!2sid!4v1703838309793!5m2!1sid!2sid"
+                width="600" height="500" style="border: 2px solid; border-radius: 15px;" allowfullscreen=""
                 width="500" height="450" style="border: 5px solid; border-radius: 20px;" allowfullscreen=""
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
         </div>
@@ -53,9 +55,14 @@
                     </div>
                     <div class="box-title1">
                         <span>Massage</span>
+                        <textarea name="massage" placeholder="Type Your Message Here . . ."
                         <textarea name="massage" required placeholder="Type Your Message Here..."
                             class="title-contact1 text-massage"></textarea>
                     </div>
+                    <input type="hidden" name="_captcha" value="false"> <!-- Disable captcha formsubmit-->
+                    <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contact.html"> -->
+                    <!-- Redirect ke halaman contact lagi-->
+                    <input type="hidden" name="_template" value="table"> <!-- Template formsubmit ke email-->
                     <div class="btn">
                         <button type="submit">S U B M I T</button>
                     </div>
@@ -68,36 +75,42 @@
                     <div class="tooltip">@museum.benteng.vredeburg</div>
                     <span><a
                             href="https://www.instagram.com/museum.benteng.vredeburg?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
+                            <img src="/assets/CONTACT/logo_ig.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_ig.svg" class="img1" />
                         </a></span>
                 </div>
                 <div class="icon">
                     <div class="tooltip">@b_vredeburg</div>
-                    <span><a href="https://x.com/b_vredeburg?t=wc0m6f-1W3KLfyYzCKcErQ&s=08">
+                    <span><a href="https://x.com/b_vredeburg?t=wc0m6f-1W3KLfyYzCKcErQ&s=08"
+                            <img src="/assets/CONTACT/logo_twitter.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_twitter.svg" class="img1" />
                         </a></span>
                 </div>
                 <div class="icon">
                     <div class="tooltip">+62 812-2609-9292</div>
                     <span><a href="https://wa.me/6281226099292">
+                            <img src="/assets/CONTACT/logo_wa.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_wa.svg" class="img1" />
                         </a></span>
                 </div>
                 <div class="icon">
                     <div class="tooltip">Museum Benteng Vredeburg Yogyakarta</div>
                     <span><a href="https://www.facebook.com/profile.php?id=100064472778932&mibextid=9R9pXO">
+                            <img src="/assets/CONTACT/logo_fb.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_fb.svg" class="img1" />
                         </a></span>
                 </div>
                 <div class="icon">
                     <div class="tooltip">museum.benteng.vredeburg</div>
                     <span><a href="https://www.tiktok.com/@museum.benteng.vredeburg?_t=8iMbiEBJaN7&_r=1">
+                            <img src="/assets/CONTACT/logo_tiktok.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_tiktok.svg" class="img1" />
                         </a></span>
                 </div>
                 <div class="icon">
                     <div class="tooltip">Museum Benteng Vredeburg Yogyakarta</div>
                     <span><a href="https://youtube.com/@museumbentengvredeburg?si=Si99N0g7rQBoScAJ">
+                            <img src="/assets/CONTACT/logo_yt.svg" class="img1" />
                             <img src="/Kelompok pwm 4/assets/CONTACT/logo_yt.svg" class="img1" />
                         </a></span>
                 </div>

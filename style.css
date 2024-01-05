@@ -1,6 +1,6 @@
 @font-face {
     font-family: FjallaOne;
-    src: url('/Kelompok pwm 4/assets/FjallaOne-Regular.ttf');
+    src: url('/assets/FjallaOne-Regular.ttf');
 }
 
 *, html, body{
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(44, 37, 9, 0.425),rgba(31, 21, 12, 0.685)), url('/Kelompok pwm 4/assets/R.jpeg');
+    background-image: linear-gradient(rgba(44, 37, 9, 0.425),rgba(31, 21, 12, 0.685)), url('/assets/BG.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ a {
 
 .tooltip1:hover {
     opacity: 1;
-    background: rgba(192, 55, 162, 0.932);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.5vh;
 }
 
@@ -234,7 +234,7 @@ a {
 
 .tooltip2:hover {
     opacity: 1;
-    background: rgba(47, 78, 59, 0.966);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.5vh;
 }
 
@@ -258,7 +258,7 @@ a {
 
 .tooltip3:hover {
     opacity: 1;
-    background: rgba(56, 120, 129, 0.966);
+    background: rgba(255, 255, 255, 0.15);
     height: 5.7vh;
 }
 
@@ -281,8 +281,56 @@ a {
 }
 
 .tooltip4:hover {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
+.playground {
+    position: absolute;
+    top: 42.5%;
+    left: 41.7%;
+}
+
+.playground .playgroundd {
+    width: 1.7vw;
+    height: 5.2vh;
+    position: absolute;
+}
+
+.playground .tooltip5 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.playground:hover {
     opacity: 1;
-    background: rgb(206, 51, 51);
+    background: rgba(255, 255, 255, 0.15);
+    height: 5.3vh;
+}
+
+.laktasi {
+    position: absolute;
+    top: 47.7%;
+    left: 38.3%;
+}
+
+.laktasi .laktasii {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+}
+
+.laktasi .tooltip6 {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0;
+}
+
+.tooltip6:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
     height: 5.3vh;
 }
 
@@ -486,23 +534,102 @@ a {
     filter: blur(0px);
 }
 
+.popup_BoxPG {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.BoxPG-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.BoxPG-text p {
+    text-align: justify;
+}
+
+.popup_BoxPG button {
+    cursor: pointer;
+    background: #2c1909;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 39%;
+}
+
+#popup_BoxPG:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.popup_Boxlaktasi {
+    background: #826C44;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    filter: blur(20px);
+    position: absolute;
+    top: 109px;
+    right: 8.05%;
+    box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
+}
+
+.Boxlaktasi-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 2rem;
+}
+
+.Boxlaktasi-text p {
+    text-align: justify;
+}
+
+.popup_Boxlaktasi button {
+    cursor: pointer;
+    background: #2c1909;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 39%;
+}
+
+#popup_Boxlaktasi:target {
+    z-index: 7;
+    opacity: 1;
+    transform: translate(50px, 0px);
+    transition: 1.5s;
+    filter: blur(0px);
+}
     /* END CONTAINER HISTORY */
-
-    /* CONTAINER HISTORY DIORAMA I */
-
-    /* END CONTAINER HISTORY DIORAMA I */
-
-    /* CONTAINER HISTORY DIORAMA II */
-
-    /* END CONTAINER HISTORY DIORAMA II */
-
-    /* CONTAINER HISTORY DIORAMA III */
-
-    /* END CONTAINER HISTORY DIORAMA III */
-
-    /* CONTAINER HISTORY DIORAMA IV */
-
-    /* END CONTAINER HISTORY DIORAMA IV */
 
     /* CONTAINER CONTACT */
 
@@ -533,7 +660,7 @@ a {
     margin-bottom: 2%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 4.5s;
+    animation: typing1 2.5s;
 }
 
 @keyframes typing1 {
@@ -549,7 +676,7 @@ a {
 
 .map {
     opacity: 0;
-    animation: showM 3s ease-in-out 1s forwards;
+    animation: showM 1s ease-in-out 1s forwards;
     box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
 }
 
@@ -576,7 +703,7 @@ a {
     gap: 30px;
     opacity: 0;
     box-shadow: -5px 15px 20px 0 rgb(129, 79, 4);
-    animation: showB 3s ease-in-out 1s forwards;
+    animation: showB 1s ease-in-out 1s forwards;
 }
 
 @keyframes showB {
@@ -592,7 +719,7 @@ a {
 }
 
 .box-heading {
-    margin: 7% 40%;
+    margin: 5% 40%;
     font-size: 20px;
     font-style: italic;
     color: #4b2e08;
@@ -604,7 +731,7 @@ a {
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: -3%;
+    margin-top: -8%;
 }
 
 .box-title1 {
@@ -641,7 +768,7 @@ a {
 }
 
 .title-contact1:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .btn button {
@@ -664,7 +791,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     opacity: 0;
-    animation: showF 4s ease-in-out 0.5s forwards;
+    animation: showF 2s ease-in-out 0.5s forwards;
 }
 
 .img1{
@@ -840,7 +967,7 @@ footer {
 .navigation .slide8:hover, 
 .navigation .slide9:hover, 
 .navigation .slide10:hover {
-    background-color: #58370C;
+    background: #58370C;
 }
 
 .card {
